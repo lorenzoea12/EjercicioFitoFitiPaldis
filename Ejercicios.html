@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Lenguaje de Marcas</title>
+    <style>
+    body {
+        background-color: rgb(99, 99, 99);
+      }
+
+      div::first-letter {
+        font-size: 200%;
+        font-weight: bold;
+        font-style: oblique;
+      }
+
+      #ultimo::after {
+        content: "...";
+      }
+
+      p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+
+      div {
+        margin-top: 36px;
+        margin-bottom: 36px;
+      }
+
+      #par {
+        background-color: rgb(177, 177, 177);
+      }
+
+      #inpar {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Soldadito Marinero</p>
+    <div id="inpar">
+      <p>Él camina despacito que las prisas no son buenas</p>
+      <p>En su brazo dobladita, con cuidado la chaqueta</p>
+      <p>Luego pasa por la calle dónde los chavales juegan</p>
+      <p id="ultimo">Él también quiso ser niño pero le pilló la guerra</p>
+    </div>
+
+    <div id="par">
+      <p>Soldadito marinero conociste a una sirena</p>
+      <p>De esas que dicen te quiero si ven la cartera llena</p>
+      <p>Escogiste a la más guapa y a la menos buena</p>
+      <p id="ultimo">Sin saber como ha venido te ha cogido la tormenta</p>
+    </div>
+
+    <div id="inpar">
+      <p>Él quería cruzar los mares y olvidar a su sirena</p>
+      <p>La verdad, no fue difícil cuando conoció a Mariela</p>
+      <p>Que tenía los ojos verdes y un negocio entre las piernas</p>
+      <p id="ultimo">Hay que ver que puntería, no te arrimas a una buena</p>
+    </div>
+    <div id="par">
+      <p>Soldadito marinero conociste a una sirena</p>
+      <p>De esas que dicen te quiero si ven la cartera llena</p>
+      <p>Escogiste la más guapa y a la menos buena</p>
+      <p id="ultimo">Sin saber como ha venido te ha cogido la tormenta</p>
+    </div>
+
+    <div id="inpar">
+      <p>Después de un invierno malo, una mala primavera</p>
+      <p>Dime por que estas buscando una lágrima en la arena</p>
+      <p id="ultimo">Después de un invierno malo</p>
+    </div>
+        <a href="https://www.letras.com/fito-fitipaldis/614056/">Pulsa para ir a la letra</a>
+    <p>Fito y Fitipaldis</p>
+  </body>
+</html>
